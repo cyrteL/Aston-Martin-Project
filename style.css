@@ -1,0 +1,22 @@
+* {
+    font-size: 40pxa;
+    text-align: center;
+}
+
+div {
+    unicode-bidi: isolate;
+}
+
+.grid {
+    display: grid;
+    margin-bottom: 50px; 
+    gap: 10px;
+}
+.gridl { 
+    grid-template-columns: repeat(2, 250px); 
+    grid-template-rows: repeat(2, 250px); 
+}
+
+.t1 {
+    
+}
