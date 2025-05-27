@@ -1,44 +1,57 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Aston Martin - Модели</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Модели - Aston Martin</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="favicon.png" type="image/x-icon">
 </head>
 <body>
-    <header>
-        <nav>
-            <a href="index.html" class="logo">
-                <img src="images/Logo (2).png" alt="Aston Martin Logo">
-            </a>
-            <ul class="nav-links">
-                <li><a href="index.html">Главная</a></li>
-                <li><a href="history.html">История</a></li>
-                <li><a href="models.html">Модели</a></li>
-                <li><a href="contact.html">Контакты</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section class="models-gallery">
-            <h2>Легендарные модели</h2>
-            <div class="model-card">
-                <img src="images/db5_car.jpg" alt="Aston Martin DB5">
-                <h3>DB5 (1963)</h3>
-                <p>Самый известный автомобиль Джеймса Бонда</p>
-            </div>
-            <!-- +ещё моделей всяких -->
-        </section>
-    </main>
+  <header>
+    <div class="container">
+      <h1>Aston Martin</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Главная</a></li>
+          <li><a href="about.html">О компании</a></li>
+          <li><a href="models.html" class="active">Модели</a></li>
+          <li><a href="history.html">История</a></li>
+          <li><a href="contact.html">Контакты</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-    <footer class="main-footer">
-        <p>© 2024 Aston Martin Heritage. Все права защищены</p>
-        <div class="social-links">
-            <a href="#"><img src="images/" alt="Facebook"></a>
-            <a href="#"><img src="images/" alt="X"></a>
-            <a href="#"><img src="images/" alt="Instagram"></a>
+  <main class="container">
+    <h2>Модели Aston Martin</h2>
+    <div class="models-list">
+      <div class="model-card">
+        <img src="images/aston-martin-db11.jpg" alt="Aston Martin DB11" />
+        <div class="model-info">
+          <h3>DB11</h3>
+          <p>DB11 – это воплощение современного дизайна и мощности. Автомобиль оснащен мощным двигателем и передовыми технологиями.</p>
         </div>
-    </footer>
+      </div>
+      <div class="model-card">
+        <img src="images/aston-martin-vantage.jpeg" alt="Aston Martin Vantage" />
+        <div class="model-info">
+          <h3>Vantage</h3>
+          <p>Vantage – это спортивный автомобиль, который сочетает в себе агрессивный дизайн и выдающиеся динамические характеристики.</p>
+        </div>
+      </div>
+      <div class="model-card">
+        <img src="images/aston-martin-dbx.jpeg" alt="Aston Martin DBX" />
+        <div class="model-info">
+          <h3>DBX</h3>
+          <p>DBX – это первый внедорожник Aston Martin, который объединяет роскошь и внедорожные возможности.</p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Aston Martin. Все права защищены.</p>
+  </footer>
 </body>
 </html>

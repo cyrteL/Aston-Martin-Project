@@ -1,43 +1,49 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Aston Martin - Контакты</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Контакты - Aston Martin</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="favicon.png" type="image/x-icon">
 </head>
 <body>
-    <header class="main-header">
-        <nav>
-            <a href="index.html" class="logo">
-                <img src="images/Logo (2).png" alt="Aston Martin Logo">
-            </a>
-            <ul class="nav-links">
-                <li><a href="index.html">Главная</a></li>
-                <li><a href="history.html">История</a></li>
-                <li><a href="models.html">Модели</a></li>
-                <li><a href="contact.html">Контакты</a></li>
-            </ul>
-        </nav>
-    </header>
+  <header>
+    <div class="container">
+      <h1>Aston Martin</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Главная</a></li>
+          <li><a href="about.html">О компании</a></li>
+          <li><a href="models.html">Модели</a></li>
+          <li><a href="history.html">История</a></li>
+          <li><a href="contact.html" class="active">Контакты</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-    <main class="contact-main">
-        <h2>Свяжитесь с нами</h2>
-        <form class="contact-form">
-            <input type="text" placeholder="Ваше имя" required>
-            <input type="email" placeholder="Ваш email" required>
-            <textarea placeholder="Ваше сообщение" required></textarea>
-            <button type="submit">Отправить</button>
-        </form>
-    </main>
+  <main class="container">
+    <h2>Контакты</h2>
+    <p>
+      Если у вас есть вопросы или вы хотите узнать больше о наших автомобилях, пожалуйста, свяжитесь с нами.
+    </p>
+    <form action="#" method="post">
+      <label for="name">Имя</label>
+      <input type="text" id="name" name="name" required />
 
-    <footer class="main-footer">
-        <p>© 2024 Aston Martin Heritage. Все права защищены</p>
-        <div class="social-links">
-            <a href="#"><img src="images/" alt="Facebook"></a>
-            <a href="#"><img src="images/" alt="X"></a>
-            <a href="#"><img src="images/" alt="Instagram"></a>
-        </div>
-    </footer>
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="message">Сообщение</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+
+      <button type="submit">Отправить</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Aston Martin. Все права защищены.</p>
+  </footer>
 </body>
 </html>
